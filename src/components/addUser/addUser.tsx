@@ -9,7 +9,11 @@ const AddUser = () => {
 
   const onSubmitHandler = (e: any) => {
     e.preventDefault();
-    dispatch(addUserAsync({ title: value }));
+    if (value !== "") {
+      dispatch(addUserAsync({ title: value }));
+    } else {
+      alert("Enter user data to add");
+    }
   };
 
   return (
@@ -20,7 +24,7 @@ const AddUser = () => {
             <input
               type="text"
               name="user"
-              placeholder="Enter name"
+              placeholder="Enter User Data"
               className="inputField"
               onChange={(e: any) => setValue(e.target.value)}
             />
