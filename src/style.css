@@ -1,0 +1,14 @@
+:root {
+  --backGroundColor: white;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+}

@@ -1,0 +1,36 @@
+.addItemContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.inputContainer {
+    padding: 0rem 0rem 29px 0;
+    border-bottom: 2px solid #00000012;
+}
+
+.inputField {
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+
+.inputField:focus {
+    border: 2px solid rgba(60, 142, 230, 0.577);
+}
+
+.addBtn {
+    background: #0f930ff5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    color: white;
+    font-size: 19px;
+}

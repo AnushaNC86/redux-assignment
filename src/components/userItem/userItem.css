@@ -1,0 +1,33 @@
+.userListConatainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+
+}
+
+.userItemContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #16161408;
+    border-radius: 10px;
+
+}
+
+.userDetails {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.removeBtn {
+    padding: 1rem 2rem;
+    background: #c94949;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+}

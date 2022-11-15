@@ -1,0 +1,10 @@
+form.formContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.homeContainer {
+    padding: 2rem;
+
+}
