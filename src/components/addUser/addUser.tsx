@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useDispatch } from "react-redux";
-import { addUser } from "../../redux/userslice";
+import { addUserAsync } from "../../redux/userslice";
 import "./addUser.css";
 
 const AddUser = () => {
@@ -9,8 +9,7 @@ const AddUser = () => {
 
   const onSubmitHandler = (e: any) => {
     e.preventDefault();
-    dispatch(addUser({ title: value }));
-    console.log("value", value);
+    dispatch(addUserAsync({ title: value }));
   };
 
   return (

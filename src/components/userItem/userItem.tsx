@@ -1,5 +1,5 @@
 import "./userItem.css";
-import { deleteUser } from "../../redux/userslice";
+import { deleteUserAsync } from "../../redux/userslice";
 import { useDispatch } from "react-redux";
 
 const UserItem = (props: any) => {
@@ -7,7 +7,7 @@ const UserItem = (props: any) => {
 
   const onDeleteHandler = (e: any) => {
     dispatch(
-      deleteUser({
+      deleteUserAsync({
         id: props.id,
       })
     );
